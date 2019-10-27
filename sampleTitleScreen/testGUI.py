@@ -104,6 +104,9 @@ def title_screen():
                 stopped = True
 
         if current_stage == "intro sequence":
+            if pygame.mouse.get_pressed()[0] == 1:
+                current_stage = "menu"
+
             if ghostX >= display_width:  # move ghost and mazeMan to next row
                 maze_manX = -30
                 maze_manY += 150
@@ -124,6 +127,9 @@ def title_screen():
             drawPellets(maze_manX, maze_manY)
 
         elif current_stage == "menu":
+            maze_manY = display_height/2 - 150
+            ghostY = display_height/2 - 150
+            ghostX = -100
             if maze_manX < (display_width/2 - 50):  # mazeMan enters
                 maze_manX += maze_man_speed         # from the left side
             if size_multiplier > 0.9 or size_multiplier < 0.75:  # for vibrating
