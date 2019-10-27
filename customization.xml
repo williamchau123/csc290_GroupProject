@@ -1,0 +1,1922 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="Images.SetBackgroundImage" is_action="true" action_type="-1" position="40">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="XmlGenerateToolsGroup" is_group="true" action_type="-1" position="39">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RemoveBom.Group" is_group="true" action_type="-1" position="38">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="36">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExternalToolsGroup" is_group="true" action_type="-1" position="35">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="34">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CompareFileWithEditor" is_action="true" action_type="-1" position="33">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CompareTwoFiles" is_action="true" action_type="-1" position="32">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="31">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GoToLinkTarget" is_action="true" action_type="-1" position="30">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ShowFilePath" is_action="true" action_type="-1" position="29">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangeTemplateDataLanguage" is_action="true" action_type="-1" position="28">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="28">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ScopeView.EditScopes" is_action="true" action_type="-1" position="27">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SynchronizeCurrentFile" is_action="true" action_type="-1" position="26">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="VersionControlsGroup" is_group="true" action_type="-1" position="25">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="22">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveLineUp" is_action="true" action_type="-1" position="21">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="21">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ProjectViewPopupMenuModifyGroup" is_group="true" action_type="-1" position="21">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveLineDown" is_action="true" action_type="-1" position="20">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExecuteInPyConsoleAction" is_action="true" action_type="-1" position="20">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ReopenClosedTab" is_action="true" action_type="-1" position="20">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="20">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveElementRight" is_action="true" action_type="-1" position="19">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddNewTabToTheEndMode" is_action="true" action_type="-1" position="19">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PreviousTab" is_action="true" action_type="-1" position="19">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Images.ShowThumbnails" is_action="true" action_type="-1" position="19">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveElementLeft" is_action="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="TabsAlphabeticalMode" is_action="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NextTab" is_action="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToFavorites" is_group="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveStatementUp" is_action="true" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="TabsPlacementGroup" is_group="true" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="$SearchWeb" is_action="true" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="17">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GoToMenuEx" is_group="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveStatementDown" is_action="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="QuickEvaluateExpression" is_action="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PrevSplitter" is_action="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddNewTabToTheEndMode" is_action="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CleanPyc" is_action="true" action_type="-1" position="16">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PowerSaveGroup" is_group="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EscapeEntities" is_action="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorBidiTextDirection" is_group="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GoToChangeMarkerGroup" is_group="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseBlock" is_action="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EvaluateExpression" is_action="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NextSplitter" is_action="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorPopupMenu3" is_group="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseBlock" is_action="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="TabsAlphabeticalMode" is_action="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ProjectViewPopupMenuRefactoringGroup" is_group="true" action_type="-1" position="15">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToggleReadOnlyAttribute" is_action="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EmojiAndSymbols" is_action="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseSelection" is_action="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseSelection" is_action="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="TabsPlacementGroup" is_group="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="14">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangeTemplateDataLanguage" is_action="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorToggleActions" is_group="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NextOccurence" is_action="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorPopupMenu2" is_group="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PinActiveEditorTab" is_action="true" action_type="-1" position="13">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="TemplateParametersNavigation" is_group="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="UIToggleActions" is_group="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PreviousOccurence" is_action="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="HierarchyGroup" is_group="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="LanguageSpecificFoldingGroup" is_group="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangeSplitOrientation" is_action="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="LanguageSpecificFoldingGroup" is_group="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangeSplitOrientation" is_action="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AssociateWithFileType" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="QuickChangeScheme" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ShowFilePath" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SurroundWithLiveTemplate" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SetNextStatement" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveTabDown" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ValidateXml" is_action="true" action_type="-1" position="11">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RemoveBom.Group" is_group="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GoToEditPointGroup" is_group="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FileStructurePopup" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="InsertLiveTemplate" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandAllToLevel" is_group="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ForceRunToCursor" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OpenProjectWindows" is_group="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MoveTabRight" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandAllToLevel" is_group="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EmmetUpdateTag" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExternalToolsGroup" is_group="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FindUsages" is_action="true" action_type="-1" position="10">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoPrevElementUnderCaretUsage" is_action="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Find" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GoToErrorGroup" is_group="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandToLevel" is_group="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SliceForward" is_action="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorToggleColumnMode" is_action="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandToLevel" is_group="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExternalToolsGroup" is_group="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EvaluateExpression" is_action="true" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Debug Tool Window Top Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="VcsGroups" is_group="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToFavorites" is_group="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorToggleColumnMode" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorPasteSimple" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoNextElementUnderCaretUsage" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Find" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoRelated" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SliceBackward" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="StopBackgroundProcesses" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="BackgroundTasks" is_group="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ProductivityGuide" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Help" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorPasteSimple" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="VersionControlsGroup" is_group="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangesView.ApplyPatch" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorPasteSimple" is_action="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Debug Tool Window Top Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToolsMenu" is_group="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Macros" is_group="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PasteMultiple" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="UnselectPreviousOccurrence" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Find" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ViewRecentActions" is_group="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditBookmarksGroup" is_group="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoTest" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CodeCompletionGroup" is_group="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ShowLiveRunConfigurations" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SmartStepInto" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Notifications" is_group="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Help" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PasteMultiple" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="VersionControlsGroup" is_group="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Images.EditExternally" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PasteMultiple" is_action="true" action_type="-1" position="7">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="InvalidateCaches" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RenameProject" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SelectNextOccurrence" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Find" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorToggleCase" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Edit Code Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="JumpToNextChange" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoSuperMethod" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ViewOfflineInspection" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ForceStepInto" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Forward" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Images.ConvertSvgToPng" is_action="true" action_type="-1" position="6">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RefactoringMenu" is_group="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Synchronize" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyReference" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SelectAllOccurrences" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Find" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OpenInBrowserGroup" is_group="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="JumpToLastChange" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoTypeDeclaration" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Unwrap" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PopupHector" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="group.Import Test Results" is_group="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ActiveToolwindowGroup" is_group="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Back" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyReference" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditSource" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyReference" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ForceStepInto" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Debug Tool Window Top Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyAsRichText" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FindWordAtCaret" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Find" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ViewSource" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ShowErrorDescription" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <path value="Code Editor View Actions" />
+      <path value="Code View Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SurroundWith" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseRegionRecursively" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RearrangeCode" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Code Formatting Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RunInspection" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="StepInto" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToolbarFindGroup" is_group="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyAsRichText" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseRegionRecursively" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorPopupMenuDebug" is_group="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChangeTemplateDataLanguage" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CloseAllUnpinnedEditors" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Close Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyAsRichText" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="StepIntoMyCode" is_action="true" action_type="-1" position="4">
+      <path value="root" />
+      <path value="Debug Tool Window Top Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AttachProject" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyAsPlainText" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorDuplicate" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Edit Code Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorContextInfo" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <path value="Code Editor View Actions" />
+      <path value="Code View Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoCustomRegion" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Name Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandRegionRecursively" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SilentCodeCleanup" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="InspectCodeGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="XDebugger.AttachGroup" is_group="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ForceStepOver" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="TabList" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyAsPlainText" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandRegionRecursively" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Gutter Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyReference" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CloseAllUnmodifiedEditors" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Close Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddAllToFavorites" is_group="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyAsPlainText" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ManageRecentProjects" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Recent" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ConvertToMacLineSeparators" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="Line Separators" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyPaths" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoSymbol" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Name Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ShowNavBar" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Generate" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PinActiveEditorTab" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Synchronize" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Generate" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OpenInBrowserGroup" is_group="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <path value="Run Configurations" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorToggleUseSoftWraps" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Gutter Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyPaths" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AddToFavorites" is_group="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OpenInBrowserGroup" is_group="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="Run Configurations" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RestoreDefaultExtensionScripts" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyPaths" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OpenInBrowserGroup" is_group="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Recent" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FileOtherSettingsGroup" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="Settings Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExportToHTML" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="Print/Export Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditSelectWordGroup" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Editor Select Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorJoinLines" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Edit Code Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ConvertIndentsToTabs" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Edit Code Actions" />
+      <path value="Convert Indents" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="QuickActions" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CompareClipboardWithSelection" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <path value="CompareActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CompareFileWithEditor" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <path value="CompareActions" />
+      <path value="Actions on Pairs of Files" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SelectIn" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Reference Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ImplementMethods" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseRegion" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="UpdateRunningApplication" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="Debugger Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="PreviousTab" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RefactoringMenu" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CollapseRegion" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorPopupMenu.GoTo" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ValidateXml" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RevealGroup" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <path value="Run Configurations" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorGutterToggleGlobalSoftWraps" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Gutter Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AssociateWithFileType" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RevealGroup" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="Run Configurations" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AssociateWithFileType" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RevealGroup" is_group="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <path value="Run Configurations" />
+      <path value="RunContextGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="IpnbConvertToPythonAction" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Settings Group" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="Print/Export Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ConvertToWindowsLineSeparators" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="Line Separators" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorCompleteStatement" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Edit Code Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToolWindowsGroup" is_group="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="View" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoClass" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Navigate" />
+      <path value="Goto by Name Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OverrideMethods" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandRegion" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CommentByLineComment" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Code" />
+      <path value="Comment Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="MinimizeCurrentWindow" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NextTab" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Window" />
+      <path value="Editor Tabs" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoAction" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Help" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="VcsToobarActions" is_group="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="MainToolBarSettings" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="com.intellij.spellchecker.actions.SpellingPopupActionGroup" is_group="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ExpandRegion" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <path value="Folding" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditorGutterVcsPopupMenu" is_group="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Editor Gutter Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CompuleQrc" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Project View Popup Menu Run Group" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="com.jetbrains.python.console.RunPythonConsoleAction" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChooseRunConfiguration" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SafeDelete" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <path value="Editor Create/Delete Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RenameElement" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChooseDebugConfiguration" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (2)" />
+      <path value="Compile/Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SafeDelete" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToolWindowsGroup" is_group="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ReformatCode" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Editor Popup Menu Actions (1)" />
+      <path value="EditorPopupMenu1.FindRefactor" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChooseRunConfiguration" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Move" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RenameElement" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Edit" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChooseDebugConfiguration" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RenameElement" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="com.jetbrains.python.console.RunPythonConsoleAction" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SafeDelete" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="Cut/Copy/Paste Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoDeclaration" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChooseRunConfiguration" is_action="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ChooseDebugConfiguration" is_action="true" action_type="1" position="9">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="10">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ReformatCode" is_action="true" action_type="1" position="11">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+  </component>
+</application>

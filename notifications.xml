@@ -1,0 +1,9 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Angular CLI" displayType="NONE" shouldLog="false" />
+    <notification groupId="Branch Context group" displayType="NONE" />
+    <notification groupId="Dependencies from package.json" displayType="NONE" shouldLog="false" />
+    <notification groupId="JBA Cloud Config" displayType="NONE" />
+    <notification groupId="JSCS Messages" displayType="NONE" />
+  </component>
+</application>
