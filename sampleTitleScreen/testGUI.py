@@ -105,7 +105,8 @@ def title_screen():
 
         if current_stage == "intro sequence":
             if pygame.mouse.get_pressed()[0] == 1:
-                current_stage = "menu"   # Update the intro and the menu
+                current_stage = "menu"  # Update the intro and the menu
+                maze_manX = -150
             if ghostX >= display_width:  # move ghost and mazeMan to next row
                 maze_manX = -30
                 maze_manY += 150
@@ -129,10 +130,10 @@ def title_screen():
             maze_manY = display_height/2 - 150
             # setting the mazeman and the ghost to the correct Y position
             ghostY = display_height/2 - 150
-            ghostX = -100 # setting ghost to be out of the menu
+            ghostX = -150 # setting ghost to be out of the menu
         #                 #Update the intro and the menu
-            if maze_manX < (display_width/2 - 50):  # mazeMan enters
-                maze_manX += maze_man_speed         # from the left side
+            if maze_manX <= (display_width/2 - 50):  # mazeMan enters
+                maze_manX += maze_man_speed  # from the left side
             if size_multiplier > 0.9 or size_multiplier < 0.75:  # for vibrating
                 size_change *= -1                                # play button
             size_multiplier += size_change
