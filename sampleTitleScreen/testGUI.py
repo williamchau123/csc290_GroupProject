@@ -44,12 +44,23 @@ def title_screen():
     stopped = False
 
     def drawMazeMan(x, y):
+        """
+        The substitutes pygame.transform.scale instance and the coodinates of the instance to
+        gamedisplay instance to draw the maze-man to the screen.
+        """
         gameDisplay.blit(maze_man, (x, y))
 
     def drawGhost(x, y):
+        """
+        The substitutes pygame.transform.scale instance and the coodinates of the instance to
+        gamedisplay instance to draw the ghost to the screen.
+        """
         gameDisplay.blit(ghost, (x, y))
 
     def drawPellets(manX, manY):
+        """
+        It draws the pellet that the maze-man is going to to eat.
+        """
         pelletX = 50
         pelletY = 40
         while pelletX < display_width or pelletY < display_height:
@@ -63,6 +74,9 @@ def title_screen():
                 pelletX += 100
 
     def drawTitle(title, font, color):
+        """
+        It draws the title with specified font and color in input.
+        """
         titleFont = pygame.font.Font(font, 60)
         textSurface = titleFont.render(title, True, color)
         textRect = textSurface.get_rect()
@@ -71,7 +85,9 @@ def title_screen():
         gameDisplay.blit(textSurface, textRect)                    # button
 
     def playButton(message, font, color, multiplier=1.0):
-
+        """
+        It return the click when the user clicked the title screen after the animation.
+        """
         playFont = pygame.font.Font(font, int(20*multiplier))  # the multiplier
         textSurface = playFont.render(message, True, color)    # creates the
         textRect = textSurface.get_rect()                      # animations
@@ -84,6 +100,10 @@ def title_screen():
         return clicked
 
     def checkMouseClick(leftBound, width, height, topBound):
+        """
+        When click is executed by playButton function, it check whether the click was executed in
+        an appropriate position.
+        """
         mouse = pygame.mouse.get_pos()
         clicks = pygame.mouse.get_pressed()
         mouseX = mouse[0]
