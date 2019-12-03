@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4e4a10-0e30-401d-b9b4-efa6b93d42dd" name="Default Changelist" comment="" />
-
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TizFjYIlI768BZi9nyoB4rRXOT" />
-
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
-
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,8 +30,28 @@
       </list>
     </option>
   </component>
-
-  <component name="RunManager" selected="Python.victoryScreen">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="csc290_GroupProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="csc290_GroupProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,20 +75,17 @@
     </configuration>
     <configuration name="victoryScreen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="csc290_GroupProject" />
-
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/victoryScreen" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/victoryScreen/victoryScreen.py" />
-
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,10 +96,9 @@
     </configuration>
     <recent_temporary>
       <list>
-
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.victoryScreen" />
         <item itemvalue="Python.testGUI" />
-
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +107,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-
       <changelist id="1e4e4a10-0e30-401d-b9b4-efa6b93d42dd" name="Default Changelist" comment="" />
       <created>1573957602000</created>
       <option name="number" value="Default" />
@@ -117,6 +127,5 @@
         </entry>
       </map>
     </option>
-
   </component>
 </project>

@@ -4,6 +4,14 @@ from actor import *
 import pygame
 import random
 
+def load_map(filename: str) -> List[List[str]]:
+    """
+    Load the map data from the given filename and return as a list of lists.
+    """
+
+    with open(filename) as f:
+        map_data = [line.split() for line in f]
+    return map_data
 
 class Game:
     """
