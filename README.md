@@ -41,7 +41,7 @@ Nirjari Gandhi-
 
 Jayvin Chang- I created the title screen and victory screen for MazeMan. Additionally, I helped integrate the game stage, title screen, and victory screen elements together and ensured that they were working as intended after integration.
 
-Jin Yoshizawa-
+Jin Yoshizawa-I wrote all the docstrings in the project. To check the functionality of the game, I did multiple test plays to make sure everything is working properly. 
 
 William Chau-
 
