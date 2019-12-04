@@ -209,17 +209,29 @@ class Ghost(Actor):
          Check if the ghost has caught the player after each move.
         """
 
-        if not game.player is None:
-            if game.player.x > self.x:
+        if not game.player is None and self._delay_count >= self._delay:
+            possible_moves = self.get_possible_moves(game)
+            if game.player.x > self.x and possible_moves['right']:
                 self.x += self._dx
-            elif game.player.x < self.x:
+            elif game.player.x < self.x and possible_moves['left']:
                 self.x -= self._dx
-            elif game.player.y > self.y:
+            elif game.player.y > self.y and possible_moves['up']:
                 self.y += self._dy
-            elif game.player.y < self.y:
+            elif game.player.y < self.y and possible_moves['down']:
                 self.y -= self._dy
-
+            elif possible_moves['right']:
+                self.x += self._dx
+            elif possible_moves['left']:
+                self.x -= self._dx
+            elif possible_moves['up']:
+                self.y += self._dy
+            else:
+                self.y -= self._dy
+                
             self.check_player_death(game)
+            self._delay_count = 0
+        else:
+            self._delay_count += 1
 
     def check_player_death(self, game: 'Game') -> None:
         """Make the game over if this monster has hit the player."""
@@ -228,3 +240,20 @@ class Ghost(Actor):
             game.game_over()
         elif self.x == game.player.x and self.y == game.player.y:
             game.game_over()
+
+    def get_possible_moves(self, game: 'Game'):
+        """Get a list of moves that can be made"""
+
+        possible_moves = {'right': False, 'left': False, 'up': False,
+                          'down': False}
+
+        if not type(game.get_actor(self.x+1, self.y)) == Wall:
+            possible_moves['right'] = True
+        if not type(game.get_actor(self.x, self.y+1)) == Wall:
+            possible_moves['up'] = True
+        if not type(game.get_actor(self.x-1, self.y)) == Wall:
+            possible_moves['left'] = True
+        if not type(game.get_actor(self.x, self.y-1)) == Wall:
+            possible_moves['down'] = True
+
+        return possible_moves
