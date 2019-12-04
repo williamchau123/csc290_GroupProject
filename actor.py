@@ -36,6 +36,7 @@ class Actor:
 
         raise NotImplementedError
 
+
 class Player(Actor):
     """
     A class to represent a Player in the game.
@@ -57,12 +58,12 @@ class Player(Actor):
     _keys_collected: int
 
     def __init__(self, icon_file: str, x: int, y: int) -> None:
-        """Initalize a Player with the given image <icon_file> at the position
+        """Initialize a Player with the given image <icon_file> at the position
         <x> and <y> on the stage."""
 
         super().__init__(icon_file, x, y)
         self._pellet_collected = 0
-        self._last_event = None # This is used for precise movement
+        self._last_event = None  # This is used for precise movement
         self._keys_collected = 0
 
     def get_pellet_count(self) -> int:
@@ -87,7 +88,7 @@ class Player(Actor):
 
     def move(self, game: 'Game') -> None:
         """
-        Move the player on the <game>'s stage based on keypresses.
+        Move the player on the <game>'s stage based on key presses.
         """
 
         if self._last_event:
@@ -191,8 +192,9 @@ class Ghost(Actor):
     _delay: int
     _delay_count: int
 
-    def __init__(self, icon_file: str, x: int, y: int, dx: float, dy: float) -> None:
-        """Initalize a monster with the given <icon_file> as its image,
+    def __init__(self, icon_file: str, x: int, y: int, dx: float, dy: float) \
+            -> None:
+        """Initialize a monster with the given <icon_file> as its image,
         <x> and <y> as its position, and <dx> and <dy> being how much
         it moves by during each animation in the game. The monster also
         has a delay which could optionally be used to slow it down."""

@@ -1,9 +1,9 @@
 from __future__ import annotations
-from typing import Optional, List
+from typing import List
 from actor import *
 import pygame
-import random
 from victoryScreen import victoryScreen
+
 
 def load_map(filename: str) -> List[List[str]]:
     """
@@ -13,6 +13,7 @@ def load_map(filename: str) -> List[List[str]]:
     with open(filename) as f:
         map_data = [line.split() for line in f]
     return map_data
+
 
 class Game:
     """
@@ -38,7 +39,7 @@ class Game:
     monster_count:
         represents the total number of squishy monsters in level one.
     setup_current_level:
-        represents the method to setup the surrent level of the game
+        represents the method to setup the current level of the game
     pellet_count:
         represents the maximum number of pellets that can exist on
         the gameboard
@@ -49,7 +50,7 @@ class Game:
     _actors:
         list of actor objects
     _level:
-        reperesents the current level of the game
+        represents the current level of the game
     _max_level:
         represents the max level of the game
 
@@ -117,8 +118,8 @@ class Game:
         pygame.init()
         data = load_map("Maze-Man gameboard representation.txt")
         self.setup_ghost_game(data)
-        self.screen = pygame.display.set_mode \
-            (self.size, pygame.HWSURFACE | pygame.DOUBLEBUF)
+        self.screen = pygame.display.set_mode(
+            self.size, pygame.HWSURFACE | pygame.DOUBLEBUF)
         self._running = True
 
     def on_event(self, event: pygame.Event) -> None:
@@ -135,7 +136,7 @@ class Game:
         """
         Return True iff the game has been won, according to the current level.
         """
-        obj = self.get_actor(self.player.x, self.player.y)
+        self.get_actor(self.player.x, self.player.y)
 
         if self.player.get_pellet_count() == self.pellet_count:
             return True
@@ -176,10 +177,10 @@ class Game:
 
         font = pygame.font.Font('freesansbold.ttf', 12)
         text = font.render(self.goal_message, True, (255, 255, 255), (0, 0, 0))
-        textRect = text.get_rect()
-        textRect.center = (self.stage_width * 24 // 2,
-                           (self.stage_height + 0.5) * 24)
-        self.screen.blit(text, textRect)
+        text_rect = text.get_rect()
+        text_rect.center = (self.stage_width * 24 // 2
+                            , (self.stage_height + 0.5) * 24)
+        self.screen.blit(text, text_rect)
 
         pygame.display.flip()
 
@@ -250,8 +251,5 @@ class Game:
             self.add_actor(chaser)
 
         # Set the number of stars the player must collect to win
-        self.goal_message = "Objective: Collect all of the pellets before the " \
-                            "ghosts get you. You have 3 lives!"
-
-
-
+        self.goal_message = "Objective: Collect all of the pellets before the" \
+                            " ghosts get you. You have 3 lives!"

@@ -10,6 +10,3 @@ if __name__ == "__main__":
     titleScreen.title_screen()
     game = Game()
     game.on_execute()
-
-
-

@@ -16,10 +16,10 @@ def victory_screen():
     size_multiplier = 0.7
     light_length = 150  # see drawTheLight() for its use
 
-    maze_manX = -200
-    maze_manY = display_height/2
-    ghostX = maze_manX-150
-    ghostY = display_height/2
+    maze_man_x = -200
+    maze_man_y = display_height/2
+    ghost_x = maze_man_x-150
+    ghost_y = display_height/2
     maze_man_speed = 10
     maze_man_size = (100, 100)
     ghost_speed = 10
@@ -32,63 +32,64 @@ def victory_screen():
     maze_man = pygame.transform.scale(maze_man_img, maze_man_size)
     ghost = pygame.transform.scale(ghost_img, ghost_size)
 
-    gameDisplay = pygame.display.set_mode((display_width, display_height))
+    game_display = pygame.display.set_mode((display_width, display_height))
     clock = pygame.time.Clock()     # need this to set the FPS count
     pygame.display.set_caption("Maze-Man")  # game window title
+    clicked_exit = None
     stopped = False
 
-    def drawMazeMan(x, y):
-        gameDisplay.blit(maze_man, (x, y))
+    def draw_maze_man(x, y):
+        game_display.blit(maze_man, (x, y))
 
-    def drawGhost(x, y):
-        gameDisplay.blit(ghost, (x, y))
+    def draw_ghost(x, y):
+        game_display.blit(ghost, (x, y))
 
-    def checkMouseClick(leftBound, width, height, topBound):
+    def check_mouse_click(left_bound, width, height, top_bound):
         mouse = pygame.mouse.get_pos()
         clicks = pygame.mouse.get_pressed()
-        mouseX = mouse[0]
-        mouseY = mouse[1]
+        mouse_x = mouse[0]
+        mouse_y = mouse[1]
 
-        if (leftBound < mouseX < (leftBound+width)) and \
-                (topBound < mouseY < (topBound+height)):  # We're checking if
+        if (left_bound < mouse_x < (left_bound+width)) and \
+                (top_bound < mouse_y < (top_bound+height)):  # We're checking if
             if clicks[0] == 1:                            # if the mouse has
                 return True                               # clicked within range
         return False                                      # of the play button
 
-    def drawButton(message, font, color, size, xy_position, multiplier=1.0):
+    def draw_button(message, font, color, size, xy_position, multiplier=1.0):
 
         # a small clarification here is that xy_position is a tuple of two
         # integers each between 0 and 1 representing the far left and far right
         # of the display for x and the top and bottom of the display for y
         # respectively
 
-        playFont = pygame.font.Font(font,
-                                    int(size * multiplier))  # the multiplier
-        textSurface = playFont.render(message, True, color)  # creates the
-        textRect = textSurface.get_rect()  # animations
+        play_font = pygame.font.Font(font
+                                     , int(size * multiplier))  # the multiplier
+        text_surface = play_font.render(message, True, color)  # creates the
+        text_rect = text_surface.get_rect()  # animations
 
-        textRect.center = (
-        (display_width * xy_position[0]), display_height*xy_position[1])
-        gameDisplay.blit(textSurface, textRect)
+        text_rect.center = (
+            (display_width * xy_position[0]), display_height*xy_position[1])
+        game_display.blit(text_surface, text_rect)
 
-        clicked = checkMouseClick(textRect.left, textRect.w, textRect.h,
-                                  textRect.top)
+        clicked = check_mouse_click(text_rect.left, text_rect.w, text_rect.h
+                                    , text_rect.top)
         return clicked
 
-    def drawText(text, font, color, size, xy_position=(0.5, 0.5)):
-        textFont = pygame.font.Font(font, size)
-        textSurface = textFont.render(text, True, color)
-        textRect = textSurface.get_rect()
+    def draw_text(text, font, color, size, xy_position=(0.5, 0.5)):
+        text_font = pygame.font.Font(font, size)
+        text_surface = text_font.render(text, True, color)
+        text_rect = text_surface.get_rect()
 
-        textRect.center = ((display_width*xy_position[0]),
-                           (display_height*xy_position[1]))
-        gameDisplay.blit(textSurface, textRect)
+        text_rect.center = ((display_width*xy_position[0])
+                            , (display_height*xy_position[1]))
+        game_display.blit(text_surface, text_rect)
 
     # Represents the white to black gradient at the edge of the screen
     # How it works? Draws consecutive rectangles of display_height height and 1
     # pixel width of gradually darkening color (from white to black)
 
-    def drawTheLight(x_end_position, length):
+    def draw_the_light(x_end_position, length):
         # length: The gradient's length in pixels
         # x_end_position: the x coordinate where the gradient ends; also keeps
         # track of the position of each rectangle
@@ -96,11 +97,10 @@ def victory_screen():
         color = (white_to_black, white_to_black, white_to_black)
         line_thickness = 1
         while white_to_black > 0:
-            pygame.draw.rect(gameDisplay, color, (x_end_position -
-                                                  line_thickness, 0
-                                                               , line_thickness
-                                                               , display_height)
-                                          )
+            pygame.draw.rect(game_display, color, (x_end_position
+                                                   - line_thickness, 0,
+                                                   line_thickness,
+                                                   display_height))
             # pygame rect (x, y, width, height)
             x_end_position -= 1
             white_to_black -= 1
@@ -113,77 +113,74 @@ def victory_screen():
 
         # Part 1
         pygame.time.wait(1000)
-        drawText("A few moments later", game_font, white, 20)
+        draw_text("A few moments later", game_font, white, 20)
         pygame.display.update()
         pygame.time.wait(2500)
 
         # Part 2
-        gameDisplay.fill(black)
-        drawTheLight(display_width, light_length)
+        game_display.fill(black)
+        draw_the_light(display_width, light_length)
         pygame.display.update()
         pygame.time.wait(2000)
 
     pre_intro_sequence()
     while not stopped:
-        gameDisplay.fill(black)
+        game_display.fill(black)
 
         for event in pygame.event.get():  # retrieve a list of events (clicks,.)
             if event.type == pygame.QUIT:
                 stopped = True
 
         if current_stage == "intro sequence 1":
-            if ghostX > display_width/2:
+            if ghost_x > display_width/2:
                 pygame.time.wait(1000)
                 current_stage = "intro sequence 2"
 
-            if maze_manX > display_width/2:
-                ghostX += ghost_speed
+            if maze_man_x > display_width/2:
+                ghost_x += ghost_speed
 
             if light_length > 0:  # the gradient slowly shrinks
                 light_length -= 1
 
-            maze_manX += maze_man_speed
+            maze_man_x += maze_man_speed
 
-
-            drawTheLight(display_width, light_length)
+            draw_the_light(display_width, light_length)
 
         if current_stage == "intro sequence 2":  # intermediate sequence where
-            if ghostX < -150:                    # the ghost moves off screen
+            if ghost_x < -150:                    # the ghost moves off screen
                 current_stage = "interactive sequence"
-                maze_manX = -200
-                maze_manY = display_height / 2 - 150
-                ghostX = display_width + 150
-                ghostY = display_height / 2 - 150
+                maze_man_x = -200
+                maze_man_y = display_height / 2 - 150
+                ghost_x = display_width + 150
+                ghost_y = display_height / 2 - 150
                 pygame.time.wait(250)
-            ghostX -= ghost_speed
+            ghost_x -= ghost_speed
 
         if current_stage == "interactive sequence":
-            if maze_manX < display_width/2 - 50:  # bring mazeMan to center
-                maze_manX += maze_man_speed       # screen
+            if maze_man_x < display_width/2 - 50:  # bring mazeMan to center
+                maze_man_x += maze_man_speed       # screen
 
             size_multiplier += size_change
             if size_multiplier > 0.9 or size_multiplier < 0.7:  # for vibrating
                 size_change *= -1                                # play button
 
-            drawText("Victory", game_font, yellow, 60)
-            clicked_play = drawButton("Play Again", game_font, white, 20,
-                                      (0.25, 0.75), size_multiplier)
-            clicked_exit = drawButton("Quit", game_font, white, 20,
-                                      (0.75, 0.75), size_multiplier)
+            draw_text("Victory", game_font, yellow, 60)
+            clicked_play = draw_button("Play Again", game_font, white, 20
+                                       , (0.25, 0.75), size_multiplier)
+            clicked_exit = draw_button("Quit", game_font, white, 20
+                                       , (0.75, 0.75), size_multiplier)
             if clicked_play or clicked_exit:
                 current_stage = "exit sequence"
 
         if current_stage == "exit sequence":
-            if maze_manX > display_width:
+            if maze_man_x > display_width:
                 if clicked_exit:
                     return False
                 else:
                     return True
-            maze_manX += maze_man_speed
+            maze_man_x += maze_man_speed
 
-
-        drawMazeMan(maze_manX, maze_manY)
-        drawGhost(ghostX, ghostY)
+        draw_maze_man(maze_man_x, maze_man_y)
+        draw_ghost(ghost_x, ghost_y)
         pygame.display.update()
         clock.tick(30)
-
