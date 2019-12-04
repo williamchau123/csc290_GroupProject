@@ -6,6 +6,13 @@ Mazeman is implemented by the language 'python' and the it's library 'pygame'.
 
 ## Game Description
 
+The Mazeman accidently get trapped inside the maze!!
+
+Right now he is chasing down by the ghosts!
+
+It's up to you to save him from the maze!!
+
+So help the mazeman to collect all the pellets and escape this maze.
 
 ## Screenshots
 
@@ -13,10 +20,10 @@ Mazeman is implemented by the language 'python' and the it's library 'pygame'.
 
 ## Controls and Features
 
-The Mazeman is controlled by the arrow keys and wasd keys:
-w:up arrow
-a:left arrow
-s:down arrow
+The Mazeman is controlled by the arrow keys and wasd keys:\
+w:up arrow\
+a:left arrow\
+s:down arrow\
 d:right arrow
 
 ## How to install
