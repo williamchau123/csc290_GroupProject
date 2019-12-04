@@ -45,12 +45,12 @@ You may extend MazeMan by creating and adding new game elements or modifying exi
   modify the ```self._delay``` attribute to the desired delay in between moves. A higher value indicates that the ghost will wait         longer before moving and will therefore be slower.
   
   ### 2. Changing the number or location of ghosts
-  Each ghost actor and their location is represented as the letter 'G' within the file ```Maze-Man gameboard representation.txt```. To     remove a ghost, replace the letter 'G' with the letter 'O' (to insert a pellet) or the letter 'X' (to insert a wall). To move the       ghost, move the 'G' to your desired location while replacing the necessary letters ('O', 'X', 'P').
+  Each ghost actor and their location is represented as the letter 'G' within the file ```Maze-Man gameboard representation.txt```. To     remove a ghost, replace the letter 'G' with the letter 'O' (to insert a pellet) or the letter 'X' (to insert a wall). To move the       ghost, move the 'G' to your desired location while replacing the whitespace left behind with the necessary letters ('O', 'X', 'P').
   
   Note: Replacing a letter with nothing results in that spot being empty on the game stage
   
   ### 3. Changing the color of the title in the title screen
-  Access the ```titleScreen.py``` file within the sampleTitleScreen folder. In that file and within the title_screen() function, define   the new color of the title according to its RGB representation. Look for the if statement that equates ```current_stage``` with         "menu". Finally, in that if statement look for a line that calls the ```drawTitle()``` function and change its 3rd argument to the new   color you defined.
+  Access the ```titleScreen.py``` file within the sampleTitleScreen folder. In that file and within the ```title_screen()``` function,     define the new color of the title according to its RGB representation. Look for the if statement that equates ```current_stage```       with "menu". Finally, in that if statement look for a line that calls the ```drawTitle()``` function and change its 3rd argument to     the new color you defined.
 
 
 ## Authors and Contributions
