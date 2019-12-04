@@ -238,13 +238,13 @@ class Game:
             for j in range(len(data[i])):
                 key = data[i][j]
                 if key == 'P':
-                    player = Player("MazeMan.png", j, i)
+                    player = Player("sprites/MazeMan.png", j, i)
                 elif key == 'G':
-                    chaser = Ghost("Ghost.png", j, i, 1, 1)
+                    chaser = Ghost("sprites/Ghost.png", j, i, 1, 1)
                 elif key == 'X':
-                    self.add_actor(Wall("Ghost.png", j, i))
+                    self.add_actor(Wall("sprites/Wall.png", j, i))
                 elif key == 'O':
-                    self.add_actor(Pellet("Pellet.png", j, i))
+                    self.add_actor(Pellet("sprites/Pellet.png", j, i))
                     self.pellet_count += 1
 
         self.set_player(player)
