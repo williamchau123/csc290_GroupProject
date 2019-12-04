@@ -47,6 +47,8 @@ You may extend MazeMan by creating and adding new game elements or modifying exi
   ### 2. Changing the number or location of ghosts
   Each ghost actor and their location is represented as the letter 'G' within the file ```Maze-Man gameboard representation.txt```. You   can find ```Maze-Man gameboard representation.txt``` in the gameboard folder. To remove a ghost, replace the letter 'G' with the         letter 'O' (to insert a pellet) or the letter 'X' (to insert a wall). To move the ghost, move the 'G' to your desired location           while replacing the whitespace left behind with the necessary letters ('O', 'X', 'P').
   
+  ![image](https://raw.githubusercontent.com/williamchau123/csc290_Mazeman/master/gameboard/Gameboard(annotated).PNG)
+  
   Note: Replacing a letter with nothing results in that spot being empty on the game stage
   
   ### 3. Changing the color of the title in the title screen
