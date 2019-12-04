@@ -116,7 +116,7 @@ class Game:
         """
 
         pygame.init()
-        data = load_map("Maze-Man gameboard representation.txt")
+        data = load_map("gameboard/Maze-Man gameboard representation.txt")
         self.setup_ghost_game(data)
         self.screen = pygame.display.set_mode(
             self.size, pygame.HWSURFACE | pygame.DOUBLEBUF)
