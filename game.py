@@ -153,11 +153,9 @@ class Game:
         for actor in self._actors:
             actor.move(self)
         if self.player is None:
-            print("You lose! :( Better luck next time.")
             self._running = False
 
         elif self.game_won():
-            print("Congratulations, you won!")
             playagain = victoryScreen.victory_screen()
             self._running = False
             if playagain:
