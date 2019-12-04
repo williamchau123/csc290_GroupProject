@@ -36,21 +36,21 @@ d:right arrow
 4. Run the main.py file
 5. Enjoy!
 
-## How to extend our game
+## How to extend MazeMan
 
 You may extend MazeMan by creating and adding new game elements or modifying existing elements. Here are a few simple examples.
 
   ### 1. Changing the speed of the ghost
-  The speed of the ghost is defined in the file '''actor.py''', within the '''Ghost''' class.  To change the speed of the ghost,
-  modify the '''self.\_delay''' attribute to the desired delay in between moves. A higher value indicates that the ghost will wait         longer before moving and will therefore be slower.
+  The speed of the ghost is defined in the file ```actor.py```, within the ```Ghost``` class.  To change the speed of the ghost,
+  modify the ```self._delay``` attribute to the desired delay in between moves. A higher value indicates that the ghost will wait         longer before moving and will therefore be slower.
   
   ### 2. Changing the number or location of ghosts
-  Each ghost actor and their location is represented as the letter 'G' within the file '''Maze-Man gameboard representation.txt'''. To     remove a ghost, replace the letter 'G' with the letter 'O' (to insert a pellet) or the letter 'X' (to insert a wall). To move the       ghost, move the 'G' to your desired location while replacing the necessary letters ('O', 'X', 'P').
+  Each ghost actor and their location is represented as the letter 'G' within the file ```Maze-Man gameboard representation.txt```. To     remove a ghost, replace the letter 'G' with the letter 'O' (to insert a pellet) or the letter 'X' (to insert a wall). To move the       ghost, move the 'G' to your desired location while replacing the necessary letters ('O', 'X', 'P').
   
   Note: Replacing a letter with nothing results in that spot being empty on the game stage
   
   ### 3. Changing the color of the title in the title screen
-  Access the '''titleScreen.py''' file within the sampleTitleScreen folder. In that file and within the title_screen() function, define   the new color of the title according to its RGB representation. Look for the if statement that equates '''current_stage''' with         "menu". Finally, in that if statement look for a line that calls the '''drawTitle()''' function and change its 3rd argument to the new   color you defined.
+  Access the ```titleScreen.py``` file within the sampleTitleScreen folder. In that file and within the title_screen() function, define   the new color of the title according to its RGB representation. Look for the if statement that equates ```current_stage``` with         "menu". Finally, in that if statement look for a line that calls the ```drawTitle()``` function and change its 3rd argument to the new   color you defined.
 
 
 ## Authors and Contributions
@@ -63,7 +63,7 @@ Arne Sokolovic-Created the graphical resources and designed the game stage, crea
 
 Nirjari Gandhi-
 
-Jayvin Chang- I created the title screen and victory screen for MazeMan. Additionally, I helped integrate the game stage, title screen, and victory screen elements together and ensured that they were working as intended after integration. For the README file, I wrote up the "How to extend our game" section and provided a few examples of how to extend our game along with it.
+Jayvin Chang- I created the title screen and victory screen for MazeMan. Additionally, I helped integrate the game stage, title screen, and victory screen elements together and ensured that they were working as intended after integration. For the README file, I wrote up the "How to extend MazeMan" section and provided a few examples of how to extend MazeMan along with it.
 
 Jin Yoshizawa-I wrote all the docstrings in the project. To check the functionality of the game, I did multiple test plays to make sure everything is working properly. 
 
