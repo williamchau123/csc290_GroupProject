@@ -24,7 +24,7 @@ d:right arrow
 ### For `Windows`
 1. Download Python 3 @ https://www.python.org/downloads/
 2. Download Pygame @ https://www.pygame.org/download.shtml
-3. Clone our projct repository @ https://github.com/williamchau123/csc290_Mazeman.git
+3. Clone our projct repository @ https://github.com/williamchau123/csc290_Mazeman.git \
 3.5 Download the zip file @ https://github.com/williamchau123/csc290_Mazeman/archive/master.zip
 4. Run the main.py file
 5. Enojoy!
