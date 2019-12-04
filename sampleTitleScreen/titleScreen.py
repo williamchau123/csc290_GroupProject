@@ -1,5 +1,4 @@
 import pygame
-
 # The title screen is composed of 3 sequences. Those are the intro, the menu,
 # and the exit sequence. The current sequence is denoted by the current_stage
 # variable
@@ -15,7 +14,7 @@ def title_screen():
     white = (255, 255, 255)
     current_stage = "intro sequence"
 
-    game_title_font = '8bit_wonder/8-BIT WONDER.ttf'
+    game_title_font = 'sampleTitleScreen/8bit_wonder/8-BIT WONDER.ttf'
     size_change = 0.0075
     size_multiplier = 0.75
 
@@ -171,7 +170,6 @@ def title_screen():
                 ghostX += ghost_speed            # ghost is close enough
             else:
                 pygame.time.wait(250)
-                # call the main game loop here
                 stopped = True
 
         drawMazeMan(maze_manX, maze_manY)
@@ -179,11 +177,16 @@ def title_screen():
         pygame.display.update()
         clock.tick(30)  # frames per second
 
-    pygame.quit()
-    quit()
 
 
-title_screen()
+
+
+
+
+
+
+
+
 
 
 

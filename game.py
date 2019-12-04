@@ -3,6 +3,7 @@ from typing import Optional, List
 from actor import *
 import pygame
 import random
+from victoryScreen import victoryScreen
 
 def load_map(filename: str) -> List[List[str]]:
     """
@@ -38,6 +39,9 @@ class Game:
         represents the total number of squishy monsters in level one.
     setup_current_level:
         represents the method to setup the surrent level of the game
+    pellet_count:
+        represents the maximum number of pellets that can exist on
+        the gameboard
 
     ==== Private Attributes: ====
     _running:
@@ -73,7 +77,7 @@ class Game:
         # Attributes that are specific to certain levels
         self.goal_stars = 0  # Level 0
         self.monster_count = 0  # Level 1
-
+        self.pellet_count = None
         # Method that takes care of level setup
 
     def set_player(self, player: Player) -> None:
@@ -114,6 +118,8 @@ class Game:
         """
 
         pygame.init()
+        data = load_map("Maze-Man gameboard representation.txt")
+        self.setup_ghost_game(data)
         self.screen = pygame.display.set_mode \
             (self.size, pygame.HWSURFACE | pygame.DOUBLEBUF)
         self._running = True
@@ -136,7 +142,7 @@ class Game:
         #(Task 0) Move over your code from A0 here; adjust as needed
         obj = self.get_actor(self.player.x, self.player.y)
 
-        if self.player.get_pellet_count() == 50:
+        if self.player.get_pellet_count() == self.pellet_count:
             return True
         else:
             return False
@@ -155,9 +161,12 @@ class Game:
             self._running = False
 
         elif self.game_won():
-            if self._level == self._max_level:
-                print("Congratulations, you won!")
-                self._running = False
+            print("Congratulations, you won!")
+            playagain = victoryScreen.victory_screen()
+            self._running = False
+            if playagain:
+                self.__init__()
+                self.on_execute()
 
     def on_render(self) -> None:
         """
@@ -221,6 +230,7 @@ class Game:
         self._actors = []
         self.stage_width, self.stage_height = w, h-1
         self.size = (w * 24, h * 24)
+        self.pellet_count = 0
 
         player, chaser = None, None
 
@@ -228,13 +238,14 @@ class Game:
             for j in range(len(data[i])):
                 key = data[i][j]
                 if key == 'P':
-                    player = Player("../images/boy-24.png", j, i)
-                elif key == 'C':
-                    chaser = Ghost("../images/ghost-24.png", j, i)
+                    player = Player("MazeMan.png", j, i)
+                elif key == 'G':
+                    chaser = Ghost("Ghost.png", j, i, 0, 0)
                 elif key == 'X':
-                    self.add_actor(Wall("../images/wall-24.png", j, i))
-                elif key == 'F':
-                    self.add_actor(Pellet("../images/wall-24.png", j, i))
+                    self.add_actor(Wall("Ghost.png", j, i))
+                elif key == 'O':
+                    self.add_actor(Pellet("Pellet.png", j, i))
+                    self.pellet_count += 1
 
         self.set_player(player)
         self.add_actor(player)

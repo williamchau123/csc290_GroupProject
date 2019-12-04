@@ -11,7 +11,7 @@ def victory_screen():
     white = (255, 255, 255)
     current_stage = "intro sequence 1"
 
-    game_font = '8bit_wonder/8-BIT WONDER.ttf'
+    game_font = 'victoryScreen/8bit_wonder/8-BIT WONDER.ttf'
     size_change = 0.0025
     size_multiplier = 0.7
     light_length = 150  # see drawTheLight() for its use
@@ -168,7 +168,7 @@ def victory_screen():
             drawText("Victory", game_font, yellow, 60)
             clicked_play = drawButton("Play Again", game_font, white, 20,
                                       (0.25, 0.75), size_multiplier)
-            clicked_exit = drawButton("Exit to Menu", game_font, white, 20,
+            clicked_exit = drawButton("Quit", game_font, white, 20,
                                       (0.75, 0.75), size_multiplier)
             if clicked_play or clicked_exit:
                 current_stage = "exit sequence"
@@ -176,11 +176,9 @@ def victory_screen():
         if current_stage == "exit sequence":
             if maze_manX > display_width:
                 if clicked_exit:
-                    # run title screen
-                    stopped = True
+                    return False
                 else:
-                    # run main loop
-                    stopped = True
+                    return True
             maze_manX += maze_man_speed
 
 
@@ -189,7 +187,3 @@ def victory_screen():
         pygame.display.update()
         clock.tick(30)
 
-    pygame.quit()
-    quit()
-
-victory_screen()

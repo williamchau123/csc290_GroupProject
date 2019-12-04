@@ -29,6 +29,7 @@ class Actor:
 
         self.x, self.y = x, y
         self.icon = pygame.image.load(icon_file)
+        self.icon = pygame.transform.scale(self.icon, (10, 10))
 
     def move(self, game: 'Game') -> None:
         """Move this actor by taking one step of its animation."""
@@ -96,6 +97,7 @@ class Player(Actor):
                 if game.keys_pressed[pygame.K_LEFT]:
                     dx -= 1
             if not type(game.get_actor(self.x + 1, self.y)) == Wall:
+                if game.keys_pressed[pygame.K_RIGHT]:
                     dx += 1
             if not type(game.get_actor(self.x, self.y - 1)) == Wall:
                 if game.keys_pressed[pygame.K_UP]:
