@@ -54,9 +54,6 @@ class Game:
         represents the max level of the game
 
     """
-    #  (Task 0) Complete the class documentation for this class by adding
-    # attribute descriptions and types (make sure to separate public and
-    # private attributes appropriately)
 
     def __init__(self) -> None:
         """
@@ -138,8 +135,6 @@ class Game:
         """
         Return True iff the game has been won, according to the current level.
         """
-
-        #(Task 0) Move over your code from A0 here; adjust as needed
         obj = self.get_actor(self.player.x, self.player.y)
 
         if self.player.get_pellet_count() == self.pellet_count:
