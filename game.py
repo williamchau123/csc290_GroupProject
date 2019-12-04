@@ -241,7 +241,7 @@ class Game:
                 elif key == 'X':
                     self.add_actor(Wall("sprites/Wall.png", j, i))
                 elif key == 'O':
-                    self.add_actor(Pellet("sprites/Pellet.png", j, i))
+                    self.add_actor(Pellet("sprites/Pellet.png", j, i, 18))
                     self.pellet_count += 1
 
         self.set_player(player)

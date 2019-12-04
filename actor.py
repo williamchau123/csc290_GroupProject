@@ -22,14 +22,14 @@ class Actor:
     y: int
     icon: pygame.Surface
 
-    def __init__(self, icon_file, x, y):
+    def __init__(self, icon_file, x, y, icon_size=24):
         """Initialize an actor with the given image <icon_file> and the
         given <x> and <y> position on the game's stage.
         """
 
         self.x, self.y = x, y
         self.icon = pygame.image.load(icon_file)
-        self.icon = pygame.transform.scale(self.icon, (12, 12))
+        self.icon = pygame.transform.scale(self.icon, (icon_size, icon_size))
 
     def move(self, game: 'Game') -> None:
         """Move this actor by taking one step of its animation."""
