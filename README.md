@@ -27,7 +27,7 @@ d:right arrow
 3. Clone our projct repository @ https://github.com/williamchau123/csc290_Mazeman.git \
 3.5 Download the zip file @ https://github.com/williamchau123/csc290_Mazeman/archive/master.zip
 4. Run the main.py file
-5. Enojoy!
+5. Enjoy!
 
 ## Authors and Contributions
 
@@ -39,7 +39,7 @@ Arne Sokolovic-Created the graphical resources and designed the game stage, crea
 
 Nirjari Gandhi-
 
-Jayvin Chang-
+Jayvin Chang- I created the title screen and victory screen for MazeMan. Additionally, I helped integrate the game stage, title screen, and victory screen elements together and ensured that they were working as intended after integration.
 
 Jin Yoshizawa-
 
