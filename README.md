@@ -35,7 +35,7 @@ Below are the list of the authors that created this project,
 
 We will each be talking our contribution toward the project:
 
-Arne Sokolovic-
+Arne Sokolovic-Created the graphical resources and designed the game stage, created a scoreboard object independent of the game's own function so as to decouple from the game engine.
 
 Nirjari Gandhi-
 
