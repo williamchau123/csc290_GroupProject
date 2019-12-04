@@ -33,7 +33,7 @@ d:right arrow
 
 Below are the list of the authors that created this project,
 
-We will each be talking our contribution toward the project:
+We will each be talking about our contribution toward the project:
 
 Arne Sokolovic-Created the graphical resources and designed the game stage, created a scoreboard object independent of the game's own function so as to decouple from the game engine.
 
@@ -43,7 +43,7 @@ Jayvin Chang- I created the title screen and victory screen for MazeMan. Additio
 
 Jin Yoshizawa-I wrote all the docstrings in the project. To check the functionality of the game, I did multiple test plays to make sure everything is working properly. 
 
-William Chau-
+William Chau- I worked on the documentation for this repository such as the README and license. I also created a .gitignore file to help neglect local generated files. 
 
 
 
