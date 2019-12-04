@@ -93,31 +93,31 @@ class Player(Actor):
         if self._last_event:
             dx, dy = 0, 0
 
-            if not type(game.get_actor(self.x - 1, self.y)) == Wall:
-                if game.keys_pressed[pygame.K_LEFT]:
-                    dx -= 1
-            if not type(game.get_actor(self.x + 1, self.y)) == Wall:
-                if game.keys_pressed[pygame.K_RIGHT]:
-                    dx += 1
-            if not type(game.get_actor(self.x, self.y - 1)) == Wall:
-                if game.keys_pressed[pygame.K_UP]:
-                    dy -= 1
-            if not type(game.get_actor(self.x, self.y + 1)) == Wall:
-                if game.keys_pressed[pygame.K_DOWN]:
-                    dy += 1
+            if not type(game.get_actor(self.x - 1, self.y)) == Wall \
+                    and game.keys_pressed[pygame.K_LEFT]:
+                dx -= 1
+            elif not type(game.get_actor(self.x + 1, self.y)) == Wall \
+                    and game.keys_pressed[pygame.K_RIGHT]:
+                dx += 1
+            elif not type(game.get_actor(self.x, self.y - 1)) == Wall \
+                    and game.keys_pressed[pygame.K_UP]:
+                dy -= 1
+            elif not type(game.get_actor(self.x, self.y + 1)) == Wall \
+                    and game.keys_pressed[pygame.K_DOWN]:
+                dy += 1
 
-            if not type(game.get_actor(self.x - 1, self.y)) == Wall:
-                if game.keys_pressed[pygame.K_a]:
-                    dx -= 1
-            if not type(game.get_actor(self.x + 1, self.y)) == Wall:
-                if game.keys_pressed[pygame.K_d]:
-                    dx += 1
-            if not type(game.get_actor(self.x, self.y - 1)) == Wall:
-                if game.keys_pressed[pygame.K_w]:
-                    dy -= 1
-            if not type(game.get_actor(self.x, self.y + 1)) == Wall:
-                if game.keys_pressed[pygame.K_s]:
-                    dy += 1
+            elif not type(game.get_actor(self.x - 1, self.y)) == Wall \
+                    and game.keys_pressed[pygame.K_a]:
+                dx -= 1
+            elif not type(game.get_actor(self.x + 1, self.y)) == Wall and \
+                    game.keys_pressed[pygame.K_d]:
+                dx += 1
+            elif not type(game.get_actor(self.x, self.y - 1)) == Wall \
+                    and game.keys_pressed[pygame.K_w]:
+                dy -= 1
+            elif not type(game.get_actor(self.x, self.y + 1)) == Wall \
+                    and game.keys_pressed[pygame.K_s]:
+                dy += 1
 
             new_x, new_y = self.x + dx, self.y + dy
 
@@ -200,7 +200,7 @@ class Ghost(Actor):
         super().__init__(icon_file, x, y)
         self._dx = dx
         self._dy = dy
-        self._delay = 5
+        self._delay = 3
         self._delay_count = 1
 
     def move(self, game: 'Game') -> None:
@@ -221,13 +221,13 @@ class Ghost(Actor):
                 self.y -= self._dy
             elif possible_moves['right']:
                 self.x += self._dx
-            elif possible_moves['left']:
-                self.x -= self._dx
             elif possible_moves['up']:
                 self.y += self._dy
+            elif possible_moves['left']:
+                self.x -= self._dx
             else:
                 self.y -= self._dy
-                
+
             self.check_player_death(game)
             self._delay_count = 0
         else:
