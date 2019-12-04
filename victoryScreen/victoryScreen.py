@@ -25,8 +25,8 @@ def victory_screen():
     ghost_speed = 10
     ghost_size = (100, 100)
 
-    maze_man_img = pygame.image.load('MazeMan.png')
-    ghost_img = pygame.image.load("Ghost.png")
+    maze_man_img = pygame.image.load('sprites/MazeMan.png')
+    ghost_img = pygame.image.load("sprites/Ghost.png")
 
     # Scales all the images to the appropriate size
     maze_man = pygame.transform.scale(maze_man_img, maze_man_size)

@@ -28,9 +28,9 @@ def title_screen():
     ghost_speed = 15
     ghost_size = (100, 100)
 
-    pellet_img = pygame.image.load("Pellet.png")
-    maze_man_img = pygame.image.load('MazeMan.png')
-    ghost_img = pygame.image.load("Ghost.png")
+    pellet_img = pygame.image.load("sprites/Pellet.png")
+    maze_man_img = pygame.image.load('sprites/MazeMan.png')
+    ghost_img = pygame.image.load("sprites/Ghost.png")
 
     # Scales all the images to the appropriate size
     maze_man = pygame.transform.scale(maze_man_img, maze_man_size)

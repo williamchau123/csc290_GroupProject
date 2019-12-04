@@ -29,7 +29,7 @@ class Actor:
 
         self.x, self.y = x, y
         self.icon = pygame.image.load(icon_file)
-        self.icon = pygame.transform.scale(self.icon, (10, 10))
+        self.icon = pygame.transform.scale(self.icon, (12, 12))
 
     def move(self, game: 'Game') -> None:
         """Move this actor by taking one step of its animation."""

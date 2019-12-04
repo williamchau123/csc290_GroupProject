@@ -233,6 +233,7 @@ class Game:
         self.pellet_count = 0
 
         player, chaser = None, None
+        chaser_list = []
 
         for i in range(len(data)):
             for j in range(len(data[i])):
@@ -241,6 +242,7 @@ class Game:
                     player = Player("sprites/MazeMan.png", j, i)
                 elif key == 'G':
                     chaser = Ghost("sprites/Ghost.png", j, i, 1, 1)
+                    chaser_list.append(chaser)
                 elif key == 'X':
                     self.add_actor(Wall("sprites/Wall.png", j, i))
                 elif key == 'O':
@@ -249,7 +251,9 @@ class Game:
 
         self.set_player(player)
         self.add_actor(player)
-        self.add_actor(chaser)
+        for chaser in chaser_list:
+            self.add_actor(chaser)
+
         # Set the number of stars the player must collect to win
         self.goal_message = "Objective: Collect all of the pellets before the " \
                             "ghosts get you. You have 3 lives!"
